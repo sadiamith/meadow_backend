@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties",
+  "info": {
+    "singularName": "property",
+    "pluralName": "properties",
+    "displayName": "Property"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "property_name": {
+      "type": "string"
+    },
+    "bedroom": {
+      "type": "integer"
+    },
+    "bathroom": {
+      "type": "integer"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "square_footage": {
+      "type": "integer"
+    },
+    "property_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "property_desc": {
+      "type": "text"
+    }
+  }
+}
